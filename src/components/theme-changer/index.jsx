@@ -21,7 +21,7 @@ const ThemeChanger = ({ theme, setTheme, loading, themeConfig }) => {
             {loading ? (
               skeleton({ width: 'w-20', height: 'h-8', className: 'mb-1' })
             ) : (
-              <span className="text-base-content opacity-70">Theme</span>
+              <span className="text-base-content opacity-70">Thèmes</span>
             )}
           </h5>
           <span className="text-base-content text-opacity-40 capitalize text-sm">
@@ -46,7 +46,7 @@ const ThemeChanger = ({ theme, setTheme, loading, themeConfig }) => {
                 className="btn btn-ghost m-1 normal-case opacity-50 text-base-content"
               >
                 <AiOutlineControl className="inline-block w-5 h-5 stroke-current md:mr-2" />
-                <span className="hidden md:inline">Change Theme</span>
+                <span className="hidden md:inline">Changer de thème</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 1792 1792"
