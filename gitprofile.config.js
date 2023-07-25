@@ -19,35 +19,41 @@ const config = {
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
+    'QGIS',
+    'ArcGIS',
+    'FME',
+    'Python',
+    'SQL',
+    'R',
     'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
+    'PostGIS',
+    'Microsoft Excel',
+    'Adobe Illustrator',
+    'HTML',
     'CSS',
-    'Antd',
-    'Tailwind',
+    'JavaScript',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Institut Paris Region',
+      position: 'Géomaticien',
+      from: 'Octobre 2021',
+      to: 'Maintenant',
+      companyLink: 'https://www.institutparisregion.fr/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Établissement Public Foncier de Bretagne',
+      position: 'Chef de projet SIG (stage)',
+      from: 'Mai 2021',
+      to: 'Octobre 2021',
+      companyLink: 'https://www.epfbretagne.fr/',
+    },
+    {
+      company: "Direction Régionale de l'Environnement, de l'Aménagement et du Logement - Nouvelle Aquitaine",
+      position: 'Géomaticien (stage)',
+      from: 'Juin 2020',
+      to: 'Aout 2020',
+      companyLink: 'https://www.nouvelle-aquitaine.developpement-durable.gouv.fr/',
     },
   ],
   /* certifications: [
@@ -60,16 +66,16 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
+      institution: 'Université Rennes 2',
+      degree: 'Master Géomatique SIGAT',
+      from: '2021',
       to: '2019',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Université Rennes 2',
+      degree: 'Licence Géographie, Aménagement, Environnement',
+      from: '2019',
+      to: '2016',
     },
   ],
 
@@ -165,11 +171,11 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
+  footer: `Fait avec <a 
       class="text-primary" href="https://github.com/arifszn/gitprofile"
       target="_blank"
       rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+    >GitProfile</a> et ❤️`,
 };
 
 export default config;
