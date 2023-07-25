@@ -135,7 +135,7 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
                       skeleton({ width: 'w-40', height: 'h-8' })
                     ) : (
                       <span className="text-base-content opacity-70">
-                        GitHub Projects
+                        Mes projets GitHub
                       </span>
                     )}
                   </h5>
@@ -148,7 +148,7 @@ const Project = ({ repo, loading, github, googleAnalytics }) => {
                       rel="noreferrer"
                       className="text-base-content opacity-50 hover:underline"
                     >
-                      See All
+                      Tout voir
                     </a>
                   )}
                 </div>
