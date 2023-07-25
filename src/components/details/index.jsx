@@ -96,7 +96,7 @@ const Details = ({ profile, loading, social, github }) => {
               {profile.location && (
                 <ListItem
                   icon={<MdLocationOn />}
-                  title="Based in:"
+                  title="Localisation:"
                   value={profile.location}
                 />
               )}
