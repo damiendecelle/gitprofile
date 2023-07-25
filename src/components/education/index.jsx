@@ -49,7 +49,7 @@ const Education = ({ loading, education }) => {
                   skeleton({ width: 'w-32', height: 'h-8' })
                 ) : (
                   <span className="text-base-content opacity-70">
-                    Expériences Professionnelles
+                    Formations
                   </span>
                 )}
               </h5>
