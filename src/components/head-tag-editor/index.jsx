@@ -22,7 +22,7 @@ const HeadTagEditor = ({ profile, theme, googleAnalytics, social }) => {
                 gtag('config', '${googleAnalytics.id}');`}
             </script>
           )}
-          <title>{profile.name && ${profile.name} | Portfolio</title>
+          <title>{`Portfolio${profile.name && ` de ${profile.name}`}</title>
           <meta
             name="theme-color"
             content={isDarkishTheme(theme) ? '#000000' : '#ffffff'}
@@ -41,7 +41,7 @@ const HeadTagEditor = ({ profile, theme, googleAnalytics, social }) => {
           <meta property="og:type" content="website" />
           <meta
             property="og:title"
-            content={`Portfolio${profile.name && ` of ${profile.name}`}`}
+            content={`Portfolio${profile.name && ` de ${profile.name}`}`}
           />
           <meta property="og:description" content={profile.bio} />
           <meta property="og:image" content={profile.avatar} />
@@ -49,7 +49,7 @@ const HeadTagEditor = ({ profile, theme, googleAnalytics, social }) => {
           <meta name="twitter:card" content="summary_large_image" />
           <meta
             name="twitter:title"
-            content={`Portfolio${profile.name && ` of ${profile.name}`}`}
+            content={`Portfolio${profile.name && ` de ${profile.name}`}`}
           />
           <meta name="twitter:description" content={profile.bio} />
           <meta name="twitter:image" content={profile.avatar} />
