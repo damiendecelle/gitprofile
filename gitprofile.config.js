@@ -11,7 +11,7 @@ const config = {
     },
   },
   social: {
-    linkedin: 'damien_decelle',
+    linkedin: 'damien-decelle',
     email: 'decelle.damien@gmail.com',
   },
   resume: {
