@@ -32,7 +32,7 @@ const HeadTagEditor = ({ profile, theme, googleAnalytics, social }) => {
 
           <meta
             itemProp="name"
-            content={`Portfolio${profile.name && ` of ${profile.name}`}`}
+            content={`Portfolio${profile.name && ` de ${profile.name}`}`}
           />
           <meta itemProp="description" content={profile.bio} />
           <meta itemProp="image" content={profile.avatar} />
