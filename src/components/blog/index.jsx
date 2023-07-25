@@ -168,7 +168,7 @@ const Blog = ({ loading, blog, googleAnalytics }) => {
       <div className="text-center mb-6">
         <AiOutlineContainer className="mx-auto h-12 w-12 opacity-30" />
         <p className="mt-1 text-sm opacity-50 text-base-content">
-          Pas d'articles récents
+          Pas d'article posté
         </p>
       </div>
     );
@@ -194,7 +194,7 @@ const Blog = ({ loading, blog, googleAnalytics }) => {
                         skeleton({ width: 'w-28', height: 'h-8' })
                       ) : (
                         <span className="text-base-content opacity-70">
-                          Articles récents
+                          Articles récements postés
                         </span>
                       )}
                     </h5>
