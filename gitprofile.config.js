@@ -43,14 +43,14 @@ const config = {
     },
     {
       company: 'Établissement Public Foncier de Bretagne',
-      position: 'Chef de projet SIG (stage)',
+      position: 'Chef de projet SIG',
       from: 'Mai 2021',
       to: 'Octobre 2021',
       companyLink: 'https://www.epfbretagne.fr/',
     },
     {
       company: "Direction Régionale de l'Environnement, de l'Aménagement et du Logement - Nouvelle Aquitaine",
-      position: 'Géomaticien (stage)',
+      position: 'Géomaticien',
       from: 'Juin 2020',
       to: 'Aout 2020',
       companyLink: 'https://www.nouvelle-aquitaine.developpement-durable.gouv.fr/',
