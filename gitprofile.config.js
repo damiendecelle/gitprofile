@@ -34,6 +34,7 @@ const config = {
     'HTML',
     'CSS',
     'JavaScript',
+    'Git',
   ],
   experiences: [
     {
