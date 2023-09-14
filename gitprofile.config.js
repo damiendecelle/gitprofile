@@ -36,6 +36,7 @@ const config = {
     'CSS',
     'JavaScript',
     'Git',
+    'etc.',
   ],
   experiences: [
     {
