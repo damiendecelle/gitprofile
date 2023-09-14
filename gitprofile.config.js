@@ -27,16 +27,14 @@ const config = {
     'R',
     'PostgreSQL',
     'PostGIS',
-    'Geoserver',
-    'Microsoft Excel',
     'Jupyter Notebook',
+    'Microsoft Excel',
     'Microsoft Power BI',
     'Adobe Illustrator',
     'HTML',
     'CSS',
     'JavaScript',
     'Git',
-    'etc.',
   ],
   experiences: [
     {
