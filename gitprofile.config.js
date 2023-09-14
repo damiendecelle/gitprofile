@@ -29,6 +29,7 @@ const config = {
     'PostGIS',
     'Geoserver',
     'Microsoft Excel',
+    'Jupyter Notebook',
     'Microsoft Power BI',
     'Adobe Illustrator',
     'HTML',
