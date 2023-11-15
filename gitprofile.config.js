@@ -16,7 +16,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://github.com/damiendecelle/portfolio/raw/main/CV%20-%20Damien%20Decelle.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://github.com/damiendecelle/portfolio/raw/main/Damien%20Decelle%20-%20CV.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'QGIS',
