@@ -40,7 +40,7 @@ const config = {
   experiences: [
     {
       company: 'Institut Paris Region',
-      position: 'Géomaticien',
+      position: 'Géomaticien - Cartographe',
       from: 'Octobre 2021',
       to: 'Maintenant',
       companyLink: 'https://www.institutparisregion.fr/',
